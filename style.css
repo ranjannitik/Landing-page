@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+.main{
+    height: 100%;
+    width: 100%;
+    background-color: #bfa5ab;
+    display: flex;
+  
+}
+.part1{
+    height: 100%;
+    width: 26%;
+    
+}
+.part2{
+    height: 100%;
+    width: 67%;
+   
+    background-color: rgb(39, 165, 117);
+    background-image: url(./3.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.over{
+    height: 100%;
+    width: 100%;
+    background-color: rgba(31, 29, 29, 0.386);
+}
+.part3{
+    height: 100%;
+    width: 7%;
+    
+}
+.text{
+    /* height: 300px; */
+    position: absolute;
+    width: 400px;
+    /* background-color: red; */
+    left: 7%;
+    top: 50%;
+    transform:translate(0,-50%) ;
+
+}
+.text>h1{
+    font-size: 70px;
+    font-family: monument;
+  
+    font-weight: 800;
+    letter-spacing: 8px;
+    line-height: 78px;
+    color: white;
+    text-transform: uppercase;
+
+}
+.smallImg{
+    height: 400px;
+    width: 300px;
+    /* background-color: red; */
+    background-image: url(./4.png);
+    background-size: cover;
+    background-position: top;
+    position: absolute;
+    top: 50%;
+    right: 5%;
+    transform: translate(0,-50%); /*1st for left right 2nd for top bottom*/
+
+}
+.vertical{
+    position: absolute;
+    transform: rotate(90deg);
+    /* right: -41.2%; */
+    right: -39.8%;
+    transform-origin: 0% 0%;
+    top: -8%;
+    /* width: 100%; */
+    /* background-color: rebeccapurple; */
+}
+.vertical h1{
+    font-size: 62px;
+    /* font-size: 70px; */
+    font-weight: 900;
+    color: transparent;
+    letter-spacing: 15px;
+    font-family: monument;
+    text-transform: uppercase;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: #fff;
+}
+.nav{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 450px;
+    left: 8%;
+    top: 5%;
+    
+   
+}
+.nav img{
+    height: 60px;
+}
+.nav>h5{
+    color: white;
+    font-size: 20px;
+    font-family: giliroy;
+}
